@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wick Studio - Discord Server</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo-container">
+                <div class="logo">
+                    <img src="Images/logo.png" alt="Wick Studio Logo" class="logo-image">
+                </div>
+            </div>
+            <h1 class="main-title">مرحباً بك في موقعي التعريفي</h1>
+            <p class="subtitle">موقع LORD الإبداعي والتقني</p>
+        </header>
+
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li><a href="#rules" class="nav-link">الخبرات</a></li>
+                <li><a href="#join" class="nav-link">مواقع تواصل الاجتماعي</a></li>
+            </ul>
+        </nav>
+
+        <section id="rules" class="section">
+            <div class="section-content">
+                <h2>المهارات والابداع</h2>
+                <div class="rules-container">
+                    <div class="rules-loading">جاري تحميل القوانين...</div>
+                    <div id="rules-content" class="rules-content"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="join" class="section">
+            <div class="section-content">
+                <h2>تواصل معي الآن!</h2>
+                <p>يمكنك التواصل معي عبر يوزرات المذكورة ادناه</p>
+                
+                <div class="join-buttons">
+                    <a href="https://www.instagram.com/8z22x/" target="_blank" class="discord-btn">
+                        <span class="discord-icon">💬</span>
+                       تواصل مباشر الانستا
+                    </a>
+                    
+                    <button id="copyInviteBtn" class="copy-btn">
+                        <span class="copy-icon">📋</span>
+                        نسخ رابط الدعوة
+                    </button>
+                </div>
+                
+                <div class="server-info">
+                    <div class="info-card">
+                        <h4>يوزر التلكرام</h4>
+                        <p id="inviteLink">e1_ea</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>يوزر الانستا</h4>
+                        <p id="memberCount">8z22x</p>
+                    </div>
+                    <div class="info-card">
+                        <h4> يوزر التيك توك</h4>
+                        <p>8z2xx</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>&copy;  جميع الحقوق محفوظة لدى LORD .</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/8z22x/" target="_blank" class="social-link">instagram</a>
+            </div>
+        </footer>
+    </div>
+
+    <div id="notification" class="notification">
+        <span id="notificationText"></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
